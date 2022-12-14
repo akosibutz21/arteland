@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>ArteLand | Arteche</title>
+		<link rel="stylesheet" href="arteche.css">
+	</head>
+	<body>
+		<header>
+			<img src="./img/logo1.png">
+			<ul>
+				<li class="active"><a href="#">Arteche</a></li>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</header>
+		<section class="banner">
+		</section>
+		<section class="content">
+			<h2>Arteche, Eastern Samar</h2>
+			<div id="content1">
+				<p>Arteche, officially the Municipality of Arteche, is a 3rd class municipality in the province of Eastern Samar, Philippines. Arteche was created in 1950 from barrios of San Ramon, Carapdapan, Beri, Tangbo, Catumsan, Bego, Concepcion, Casidman, Tawagan and Tibalawan of the Municipality of Oras.</p><br>
+		</div>
+			<div id="content2">
+				<p>The name ArteLand (website) used to describe the beautiful landmarks of Arteche that makes the place what it is now.</p><br>
+			</div>
+		</section>
+		<section class="content3">
+			<div id="mark">
+			<h2>Landmarks</h2>
+			</div>
+			<div id="local">
+			<h2>Local		<a href="local.html" class="btn">Click here to view more</a></h2>
+				<div id="church">
+					<img src="./img/church1.jpeg">
+					<p>CHURCH OF ST. RAYMUND NONNATUS</p>
+				</div>
+				<div id="aces">
+					<img src="./img/aces.jpeg">
+					<p>ACES</p>
+				</div>
+				<div id="anhs">
+					<img src="./img/anhs.jpeg">
+					<p>ANHS</p>
+				</div>
+				<div id="essu">
+					<img src="./img/essu1.jpeg">
+					<p>ESSU-ARTECHE</p>
+				</div>
+				<div id="tesda">
+					<img src="./img/tesda.jpg">
+					<p>TESDA-ANAS</p>
+				</div>
+				<div id="market">
+					<img src="./img/market.jpg">
+					<p>ARTECHE PUBLIC MARKET</p>
+				</div>
+					
+			</div>
+			<div id="tourist">
+			<h2>Tourist		<a href="tourist.html" class="btn">Click here to view more</a></h2>
+				<div id="pisak">
+					<img src="./img/pisak.jpeg">
+					<p>PISAK FALLS</p>
+				</div>
+				<div id="banak">
+					<img src="./img/banak.jpeg">
+					<p>BAN-AK BEACH</p>
+				</div>
+				<div id="zone">
+					<img src="./img/zone.jpeg">
+					<p>LANDING ZONE</p>
+				</div>
+				<div id="biri">
+					<img src="./img/lagoon.jpeg">
+					<p>BIRI LAGOON</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+				<div id="footer0">
+					<img src="./img/logo1.png">
+					<p>&copy; <em id="date"></em>2022 BSIT-2, All Rights Reserved</p>
+				</div>
+		</footer>
+	</body>
+</html>

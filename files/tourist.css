@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+body{
+	background: #fff;
+	min-height: 100vh;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image: linear-gradient(#00cc00, #99ff99);
+	border-bottom: solid #00ff00 2px;
+	display: fixed;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 100000;
+}
+
+header img{
+	position: relative;
+	width: 150px;
+	height: 100%;
+}
+
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+}
+
+header ul li{
+	display: inline-block;
+	position: relative;
+	list-style: none;
+}
+
+header ul li a{
+	position: relative;
+	margin: 0 15px;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 5px 20px;
+	border: 2px white solid;
+	border-radius: 25px;
+	font-weight: 500px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.banner{
+	width: 100%;
+	height: 70vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./img/ache.jpeg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translate(-15%, -70%);
+	border: none;
+}
+
+.title h1{
+	margin-left: 50px;
+	color: #fff;
+	font-size: 90px;
+}
+
+.content h2#eme{
+	margin-top: 25px;
+	margin-left: 25px;
+	font-size: 50px;
+	color: #009900;
+}
+
+div#pisak{
+	border-top: solid #66ff66 10px;
+	margin-top: 50px;
+}
+
+div#pisak p{
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+div#pisak img{
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+}
+
+div#pisak h2{
+	margin-left: 25px;
+	margin-top: 25px;
+	background: #99ff99;
+	border: 1px solid #66ff66;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #003300;
+	text-decoration: none;
+	transition: 0.6s ease;
+	width: 15%;
+}
+
+div.gallery{
+	margin-left: 50px;
+	border: 1px solid #ccc;
+	float: left;
+}
+
+div.gallery:hover{
+	border: 1px solid #777;
+}
+
+div#banak{
+	border-top: solid #66ff66 10px;
+	margin-top: 360px;
+}
+
+div#banak p{
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+div#banak img{
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+}
+
+div#banak h2{
+	margin-left: 25px;
+	margin-top: 25px;
+	background: #99ff99;
+	border: 1px solid #66ff66;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #003300;
+	text-decoration: none;
+	transition: 0.6s ease;
+	width: 20%;
+}
+
+div#zone{
+	border-top: solid #66ff66 10px;
+	margin-top: 360px;
+}
+
+div#zone p{
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+div#zone img{
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+}
+
+div#zone h2{
+	margin-left: 25px;
+	margin-top: 25px;
+	background: #99ff99;
+	border: 1px solid #66ff66;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #003300;
+	text-decoration: none;
+	transition: 0.6s ease;
+	width: 20%;
+}
+
+div#biri{
+	border-top: solid #66ff66 10px;
+	margin-top: 360px;
+}
+
+div#biri p{
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+div#biri img{
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+}
+
+div#biri h2{
+	margin-left: 25px;
+	margin-top: 25px;
+	background: #99ff99;
+	border: 1px solid #66ff66;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #003300;
+	text-decoration: none;
+	transition: 0.6s ease;
+	width: 20%;
+}
+
+.btn{
+	background: #99ff99;
+	border: 1px solid #66ff66;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+div#local{
+	border-top: solid #66ff66 10px;
+	margin-top: 425px;
+}
+
+div#local h2{
+	font-size: 50px;
+	margin-left: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #009900;
+}
+
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+div#footer0 img{
+	margin-top: 40px;
+	width: 150px;
+	height: 50px;
+	margin-left: 570px;
+}
+
+div#footer0 p{
+	margin-top: 10px;
+	text-align: center;
+	background: none;
+	color: white;
+}
+
+div#footer0{
+	border-radius: 0;
+	border: none;
+	background-image: linear-gradient(#99ff99, #00cc00);
+	margin-left: 0;
+	width: 100%;
+	height: 200px;
+	border-top: solid #00ff00 2px;
+	
+}
